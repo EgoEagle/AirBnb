@@ -4,16 +4,12 @@ import './index.css';
 import App from './App';
 import Hero from './components/Hero.js';
 import Navbar from './components/Navbar.js';
-import Card from './components/Card.js';
+import CardSet from './components/CardSet.js';
 import reportWebVitals from './reportWebVitals';
 import data from "./data.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-/*   const cap = names.map(function(name){
-      return name[0].toUpperCase() + name.slice(1)
-}) */
-console.log(data);
 
 
 function Page()
@@ -26,7 +22,7 @@ function Page()
     <div>
         <Navbar />
         <Hero />
-      
+        <CardSet />
         
 
     </div>
