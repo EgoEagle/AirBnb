@@ -1,15 +1,39 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Hero from './components/Hero.js';
+import Navbar from './components/Navbar.js';
+import Card from './components/Card.js';
 import reportWebVitals from './reportWebVitals';
+import data from "./data.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+
+/*   const cap = names.map(function(name){
+      return name[0].toUpperCase() + name.slice(1)
+}) */
+
+function Page()
+{
+  return (
+    <div>
+        <Navbar />
+        <Hero />
+        <Card />
+        
+
+    </div>
+
+
+
+  )
+
+}
+
+
+
+root.render(<Page />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
