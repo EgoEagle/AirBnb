@@ -13,14 +13,20 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /*   const cap = names.map(function(name){
       return name[0].toUpperCase() + name.slice(1)
 }) */
+console.log(data);
+
 
 function Page()
 {
+
+
+
+
   return (
     <div>
         <Navbar />
         <Hero />
-        <Card />
+      
         
 
     </div>
