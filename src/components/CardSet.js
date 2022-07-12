@@ -16,7 +16,7 @@ import data from "../data.js";
 
 export default function CardSet(){
      const dataElements = data.map( element => {
-          return <Card title={element.title} price={element.price} coverImg={element.coverImg} />
+          return <Card title={element.title} location={element.location}price={element.price} rating={element.stats.rating} coverImg={element.coverImg} />
       })
 
 

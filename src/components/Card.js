@@ -19,12 +19,12 @@ export default function Card(prop)
      */
      return(
           <div className="cardbox">
-               <img src='./images/${prop.coverImg}' className="cardImage"/>
+               <img src={`../images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
                     <img src={star} className="star" />
-                    <span> 5.0 </span>
+                    <span> {prop.rating} </span>
                     <span className="gray"> (6) • </span>
-                    <span className="gray"> USA </span>
+                    <span className="gray"> {prop.location} </span>
                </div>
                <p>{prop.title}</p>
                <p>From <strong>${prop.price}</strong> / person</p>
