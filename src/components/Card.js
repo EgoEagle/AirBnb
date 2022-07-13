@@ -14,11 +14,11 @@ export default function Card(prop)
          coverImg: "katie-zaferes.png",
          stats: {
              rating: 5.0,
-
+          {`${process.env.PUBLIC_URL}/images/${prop.coverImg}`}
      */
      return(
           <div>
-               <img src={`../images/${prop.coverImg}`} className="cardImage"/>
+               <img src={`${process.env.PUBLIC_URL}/images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
                     <img src={star} className="star" />
                     <span> {prop.rating} </span>
