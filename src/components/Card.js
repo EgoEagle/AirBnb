@@ -1,4 +1,5 @@
 import React from "react";
+import star from "../images/star.png";
 
 
 
@@ -18,7 +19,7 @@ export default function Card(prop)
           <div>
                <img src={`../images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
-                    <img src="../images/star.png" className="star" />
+                    <img src={star} className="star" />
                     <span> {prop.rating} </span>
                     <span className="gray"> ({prop.review}) • </span>
                     <span className="gray"> {prop.location} </span>
