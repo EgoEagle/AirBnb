@@ -37,5 +37,33 @@ export default [
          },
          location: "Norway",
          openSpots: 3,
-     }
+     },
+
+     {
+        id: 4,
+        title: "League Boosting Service",
+        description: "Boosting to Gold Elo",
+        price: 30,
+        coverImg: "League.png",
+        stats: {
+            rating: 4,
+            reviewCount: 3
+        },
+        location: "Online",
+        openSpots: 0,
+    },
+
+    {
+        id: 3,
+        title: "Fornite Boosting Service",
+        description: "Guaranteed Top 3",
+        price: 15,
+        coverImg: "Fornite.jpg",
+        stats: {
+            rating: 5,
+            reviewCount: 6
+        },
+        location: "Online",
+        openSpots: 3,
+    }
  ]
