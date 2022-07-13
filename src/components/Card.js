@@ -1,5 +1,5 @@
 import React from "react";
-
+import star from "../images/star.png";
 
 
 
@@ -16,10 +16,11 @@ export default function Card(prop)
           {`${process.env.PUBLIC_URL}/images/${prop.coverImg}`}
      */
      return(
-          <div>
-               <img src={`../images/${prop.coverImg}`} className="cardImage"/>
+          <div className="cardBox">
+               {prop.openSpots === 0 && <div className="cardBadge">SOLD OUT</div>}
+               <img src={`${process.env.PUBLIC_URL}/images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
-                    <img src="../images/star.png" className="star" />
+                    <img src={star} className="star" />
                     <span> {prop.rating} </span>
                     <span className="gray"> ({prop.review}) • </span>
                     <span className="gray"> {prop.location} </span>

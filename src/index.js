@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Hero from './components/Hero.js';
 import Navbar from './components/Navbar.js';
-import CardSet from './components/CardSet.js';
+import Card from "./components/Card.js"
 import reportWebVitals from './reportWebVitals';
-
+import data from "./data.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const dataElements = data.map( element => {
+  return <Card title={element.title} openSpots={element.openSpots} review={element.stats.reviewCount} location={element.location}price={element.price} rating={element.stats.rating} coverImg={element.coverImg} />
+})
 
 
 
@@ -21,7 +25,10 @@ function Page()
     <div>
         <Navbar />
         <Hero />
-        <CardSet />
+        <section className="cardSection"> 
+          {dataElements}
+        
+        </section>
         
 
     </div>
