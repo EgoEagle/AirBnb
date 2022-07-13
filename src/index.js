@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Hero from './components/Hero.js';
 import Navbar from './components/Navbar.js';
 import CardSet from './components/CardSet.js';
 import reportWebVitals from './reportWebVitals';
-import data from "./data.js";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

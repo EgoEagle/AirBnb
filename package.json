@@ -1,6 +1,6 @@
 {
      "homepage": "https://egoeagle.github.io/AirBnb/",
-     "name": "business-card",
+     "name": "air-bnb",
      "version": "0.1.0",
      "private": true,
      "dependencies": {
