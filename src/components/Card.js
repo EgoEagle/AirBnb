@@ -18,7 +18,7 @@ export default function Card(prop)
      */
      return(
           <div>
-               <img src={`${process.env.PUBLIC_URL}/images/${prop.coverImg}`} className="cardImage"/>
+               <img src={`images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
                     <img src={star} className="star" />
                     <span> {prop.rating} </span>
