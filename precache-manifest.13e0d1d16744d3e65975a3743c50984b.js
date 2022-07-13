@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "7d40b2d3cc0219d5ff96",
-    "url": "/AirBnb/static/css/main.4336d886.chunk.css"
+    "revision": "e09b1ba311e99762a9d7",
+    "url": "/AirBnb/static/css/main.bf4ffbff.chunk.css"
   },
   {
-    "revision": "7d40b2d3cc0219d5ff96",
+    "revision": "e09b1ba311e99762a9d7",
     "url": "/AirBnb/static/js/main.18dd0536.chunk.js"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/AirBnb/static/media/logo.200ce038.png"
   },
   {
-    "revision": "1c036891adb4f39ade3ae4b4835e75dc",
+    "revision": "89a925557668d61e12ab775609152f68",
     "url": "/AirBnb/index.html"
   }
 ];
