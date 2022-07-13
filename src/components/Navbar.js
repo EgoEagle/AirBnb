@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
-import grid from "../images/grid.png";
+
 
 export default function Navbar()
 {

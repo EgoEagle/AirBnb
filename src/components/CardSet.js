@@ -16,14 +16,14 @@ import data from "../data.js";
 
 export default function CardSet(){
      const dataElements = data.map( element => {
-          return <Card title={element.title} location={element.location}price={element.price} rating={element.stats.rating} coverImg={element.coverImg} />
+          return <Card title={element.title} review={element.stats.reviewCount} location={element.location}price={element.price} rating={element.stats.rating} coverImg={element.coverImg} />
       })
 
 
 
      return(
 
-          <div>
+          <div className="cardBox">
                {dataElements}
           
           

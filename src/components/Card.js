@@ -1,5 +1,4 @@
 import React from "react";
-import kate from "../images/katie-zaferes.png";
 import star from "../images/star.png";
 
 
@@ -18,12 +17,12 @@ export default function Card(prop)
 
      */
      return(
-          <div className="cardbox">
+          <div>
                <img src={`../images/${prop.coverImg}`} className="cardImage"/>
                <div className="cardStat">
                     <img src={star} className="star" />
                     <span> {prop.rating} </span>
-                    <span className="gray"> (6) • </span>
+                    <span className="gray"> ({prop.review}) • </span>
                     <span className="gray"> {prop.location} </span>
                </div>
                <p>{prop.title}</p>
@@ -32,7 +31,6 @@ export default function Card(prop)
 
 
      )
-
 
 
 }

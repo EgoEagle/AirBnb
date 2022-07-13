@@ -71,3 +71,10 @@ height:15px;
   border-radius: 9px;
 
 }
+
+.cardBox{
+
+  display:flex;
+  justify-content: space-between;
+  margin: 5%;
+}
